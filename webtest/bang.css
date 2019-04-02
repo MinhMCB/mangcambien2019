@@ -1,0 +1,22 @@
+#bang1{
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;   
+}
+
+
+
+#bang1 tr td img{
+    width:250px;
+    height: 250px;
+}  
+/*
+#bang1 ,#bang1 tr,#bang tr td{
+
+    border: solid #007700 3px;
+    border-collapse:collapse;   
+}
+*/
+#classanh{
+    padding-left: 10%; 
+}

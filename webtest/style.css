@@ -1,0 +1,118 @@
+body{
+    width: 100%;	/* chieu rong cua thuc the */
+    height: 100%;	/* chieu cao cua thuc the */
+    margin: auto;	/* khoang cach ngoai cua thuc the */
+    font-size: 18px; 
+    background: url(photos/nenbody.jpeg);
+    position: absolute;
+    z-index:1;   
+}
+
+#dau{
+    width: 100%;
+    height: 50px;;
+    background-color: black;
+    left:0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    position:fixed;
+    z-index:6;   
+}
+
+#dau table{
+    width:60%;
+    height: 50px;
+    margin-top:0px;
+    margin-left: 30%;
+    /* background-color: white;   */
+    
+}
+
+#dau table tr td{
+    width:150px;
+    height: 30px;
+    border: outset #111111 6px;
+    text-align: center;
+   
+}
+
+#dau table tr td a{
+    color: white;
+    text-decoration: none; /* bo gach chan */
+}
+
+#than{
+    width: 100%;
+    height: 290px;;
+    background: url(photos/than.jpg);
+    background-size: 1600px 350px;   
+    left:0;
+    top: 50px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    z-index:4;
+    border-bottom: inset #002200 6px;   /* net ve duong vien stype-color-width */
+    font-size: 75px;
+}
+
+
+
+#cuoi{
+    width: 64%;
+    height: 1000px;
+    background-color: white;  
+    left:18%;
+    top: 340px;
+    margin: auto;
+    position: absolute;
+    z-index:5; 
+}
+
+#cuoi li{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: arial;
+}
+
+#cuoi img{
+    width:800px;
+    height: 540px;
+    margin-left: 7%;
+    border: solid #007700 3px;   
+}
+
+#cuoi h2{
+    padding-left: 30px;
+    font-size: 20pt;
+    font-family: arial;
+}
+
+#cuoi h3 li{
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16pt;
+   
+}
+
+#dinh{
+    width: 64%;
+    height: 60px;
+    background-color:#007700;  
+    left:18%;
+    top: 280px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;  /* be cong vien cua thuc the*/
+    position: absolute;
+    z-index:5;   
+}
+
+#dinh ul li{
+    float: left;
+    padding: 0;
+    margin-left: 25px;
+    margin-right: 50px;
+}
